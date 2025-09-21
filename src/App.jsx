@@ -116,6 +116,15 @@ export default function Portfolio() {
   };
 
   const projects = [
+     {
+      title: "AI Blog Platform",
+      description: "Dynamic content platform built on the MERN stack, automating blog creation with the Gemini API to deliver high-quality content in seconds. Features a modern, responsive UI and complete routing for seamless viewing and management of all published posts.",
+      tech: ["MongoDB", "Express.js", "Tailwind CSS", "React", "Node.js", "CORS", "OpenAI API"],
+      image: "https://media.istockphoto.com/id/2058249361/photo/information-services-for-businesses-using-ai-technology-artificial-intelligence-businesswoman.webp?a=1&b=1&s=612x612&w=0&k=20&c=A6X6kX8ZbGzuyj9ae-9juijWlSEH3prjYRvbwQbQ6no=",
+      github: "https://github.com/amanr007/ai-blog.git",
+      live: "#",
+      category: "Full Stack"
+    },
     {
       title: "Chat Application",
       description: "A MERN-stack chat application with separate frontend and backend. Users can send and receive real-time messages. The project is built using MongoDB, Express, React, and Node.js.",
